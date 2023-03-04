@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(60, 54, 54);
+    height: 90vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    border-radius: 30px;
+    
+  
+}
+
+.title-container {
+    text-align: center;
+    border-bottom: solid 1px #060606;
+    margin-bottom: 30px;
+}
+
+.password-container {
+    width: 300px;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 40px;
+    height: 60px;
+    font-size: 1.1rem;
+    background-color: rgb(206, 206, 187);
+    margin: 4px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile.flip {
+    animation: 0.6s linear flipping;
+}
+
+@keyframes flipping {
+    0% {
+        transform: rotateX(0deg);
+    }
+    50% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+button {
+    background-color: rgb(206, 58, 58);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgb(216, 215, 215);
+    margin-bottom: 20px;
+    box-shadow: 3px 2px 4px rgba(43, 38, 38, 0.5);
+}
+
+button:hover {
+    background-color: rgb(255, 0, 0);
+}
