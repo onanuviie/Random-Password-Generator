@@ -15,6 +15,7 @@
 - setTimeout()
 - String.fromCharCode()
 - Javascript array Methods
+- CSS animations
 
 
 ### What I learnt
