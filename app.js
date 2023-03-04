@@ -32,7 +32,7 @@ function createPassword() {
     password.push(digit1)
     let digit2 = String.fromCharCode(generateRandom(48, 57))
     password.push(digit2)
-    let specialCharacter1 = String.fromCharCode(generateRandom(32, 64))
+    let specialCharacter1 = String.fromCharCode(generateRandom(58, 64))
     password.push(specialCharacter1)
     let specialCharacter2 = String.fromCharCode(generateRandom(91, 96))
     password.push(specialCharacter2)
